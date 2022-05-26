@@ -17,7 +17,7 @@ const firstUser = {
   gender: "female",
   age: 17,
   email: "monica@dingdong.com",
-  favoritColor: ["Yellow", "Pink", "White", "Purple"],
+  favoriteColor: uniq(["Yellow", "Pink", "White", "Purple"]),
   isHavePet: isHavePet.get("Monica"),
   education: {
     sd: {
@@ -44,7 +44,7 @@ const secondUser = {
   gender: "male",
   age: 23,
   email: "wendy@dingdong.com",
-  favoritColor: ["Blue", "Black", "Grey"],
+  favoriteColor: uniq(["Blue", "Black", "Grey"]),
   isHavePet: isHavePet.get("Wendy"),
   education: {
     sd: {
