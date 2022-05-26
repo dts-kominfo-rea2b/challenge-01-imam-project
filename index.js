@@ -71,7 +71,7 @@ const secondUser = {
   };
 
 // TODO: Masukkan hasil akhir dari kedua user di sini
-const users = new Set([firstUser, secondUser]);
+const users = {firstUser,secondUser};
 
 // ! JANGAN MODIFIKASI LINE DI BAWAH
 function main() {
