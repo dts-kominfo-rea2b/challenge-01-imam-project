@@ -8,67 +8,67 @@ isHavePet.set("Wendy", "No");
 
 //uniq for favoriteColor & favoriteRestaurant
 const uniq = (array) => {
-    return [...new Set(array)];
-  };
+  return [...new Set(array)];
+};
 
 //firstUser > Monica
 const firstUser = {
-    name: "Monica",
-    gender: "female",
-    age: 17,
-    email: "monica@dingdong.com",
-    favoritColor: uniq(["Yellow", "Pink", "White", "Purple"]),
-    isHavePet: isHavePet.get("Monica"),
-    education: {
-      sd: {
-        name: "SD 01",
-        city: "Jakarta",
-        graduate: "2016",
-      },
-      smp: {
-        name: "SMP 02",
-        city: "Jakarta",
-        graduate: "2019",
-      },
-      sma: {
-        name: "SMA 03",
-        city: "Tangerang",
-      },
+  name: "Monica",
+  gender: "female",
+  age: 17,
+  email: "monica@dingdong.com",
+  favoritColor: uniq(["Yellow", "Pink", "White", "Purple"]),
+  isHavePet: isHavePet.get("Monica"),
+  education: {
+    sd: {
+      name: "SD 01",
+      city: "Jakarta",
+      graduate: "2016",
     },
-    favoriteRestaurant: uniq(["Bento", "Sushi", "Pancake", "Eggy", "Tempura", "Bento", "Eggy", "Padang", "Tteok", "Sushi", "Sushi"]),
-  };
-  
+    smp: {
+      name: "SMP 02",
+      city: "Jakarta",
+      graduate: "2019",
+    },
+    sma: {
+      name: "SMA 03",
+      city: "Tangerang",
+    },
+  },
+  favoriteRestaurant: uniq(["Bento", "Sushi", "Pancake", "Eggy", "Tempura", "Bento", "Eggy", "Padang", "Tteok", "Sushi", "Sushi"]),
+};
+
 //secondUser > Wendy
 const secondUser = {
-    name: "Wendy",
-    gender: "male",
-    age: 23,
-    email: "wendy@dingdong.com",
-    favoritColor: uniq(["Blue", "Black", "Grey"]),
-    isHavePet: isHavePet.get("Wendy"),
-    education: {
-      sd: {
-        name: "SD 02",
-        city: "Jakarta",
-        graduate: "2010",
-      },
-      smp: {
-        name: "SMP 03",
-        city: "Bogor",
-        graduate: "2013",
-      },
-      sma: {
-        name: "SMA 01",
-        city: "Surabaya",
-        graduate: 2016,
-      },
-      universitas: {
-        name: "Universitas Maju",
-        city: "Tanggerang",
-      },
+  name: "Wendy",
+  gender: "male",
+  age: 23,
+  email: "wendy@dingdong.com",
+  favoritColor: uniq(["Blue", "Black", "Grey"]),
+  isHavePet: isHavePet.get("Wendy"),
+  education: {
+    sd: {
+      name: "SD 02",
+      city: "Jakarta",
+      graduate: "2010",
     },
-    favoriteRestaurant: uniq(["Tempura", "Bento", "Sushi", "Pancake", "Padang", "Katsu", "Geprek", "Pancake", "Eggy"]),
-  };
+    smp: {
+      name: "SMP 03",
+      city: "Bogor",
+      graduate: "2013",
+    },
+    sma: {
+      name: "SMA 01",
+      city: "Surabaya",
+      graduate: 2016,
+    },
+    universitas: {
+      name: "Universitas Maju",
+      city: "Tanggerang",
+    },
+  },
+  favoriteRestaurant: uniq(["Tempura", "Bento", "Sushi", "Pancake", "Padang", "Katsu", "Geprek", "Pancake", "Eggy"]),
+};
 
 // TODO: Masukkan hasil akhir dari kedua user di sini
 const users = [];
@@ -77,12 +77,12 @@ users.push(secondUser);
 
 // ! JANGAN MODIFIKASI LINE DI BAWAH
 function main() {
-    console.log(users.length || users.size);
-    console.log(users);
+  console.log(users.length || users.size);
+  console.log(users);
 }
 
 main();
 
 module.exports = {
-    users
+  users,
 };
