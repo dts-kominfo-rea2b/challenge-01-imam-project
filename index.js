@@ -35,7 +35,7 @@ const firstUser = {
         city: "Tangerang",
       },
     },
-    favoriteRestaurant: uniq(["Bento", "", "Pancake", "Eggy", "Tempura", "Bento", "Eggy", "Padang", "Tteok", "Sushi", "Sushi"]),
+    favoriteRestaurant: uniq(["Bento", "Sushi", "Pancake", "Eggy", "Tempura", "Bento", "Eggy", "Padang", "Tteok", "Sushi", "Sushi"]),
   };
   
 //secondUser > Wendy
