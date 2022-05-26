@@ -71,7 +71,9 @@ const secondUser = {
   };
 
 // TODO: Masukkan hasil akhir dari kedua user di sini
-const users = {firstUser,secondUser};
+const users = [];
+users.push(firstUser);
+users.push(secondUser);
 
 // ! JANGAN MODIFIKASI LINE DI BAWAH
 function main() {
